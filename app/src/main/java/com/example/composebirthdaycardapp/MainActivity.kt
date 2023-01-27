@@ -6,10 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
 import androidx.compose.ui.Modifier
-import com.example.composebirthdaycardapp.ui.BirthDayCard
-import com.example.composebirthdaycardapp.ui.ComposeArticle
-import com.example.composebirthdaycardapp.ui.Quadrant
-import com.example.composebirthdaycardapp.ui.TaskManager
+import com.example.composebirthdaycardapp.ui.*
 import com.example.composebirthdaycardapp.ui.theme.ComposeBirthdayCardAppTheme
 
 
@@ -23,10 +20,11 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                      Quadrant()
-//                    TaskManager()
-//                    ComposeArticle()
-//                    BirthDayCard(name = "Yusuf", from = "Uğur")
+                    WildHuntCard()
+//                      Quadrant()
+//                      TaskManager()
+//                      ComposeArticle()
+//                      BirthDayCard(name = "Yusuf", from = "Uğur")
                 }
             }
         }
